@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    gap: 3px;
+}
+
+.review {
+    color: white;
+    background-color: grey;
+    width: 35em;
+    border: 1px groove grey;
+    border-radius: 12px;
+    box-sizing: 8px 8px 5px;
+    padding: 8px 12px;
+    float: left;
+    margin-right: auto;
+    grid-row: 1fr;
+    grid-column: 1fr;
+}
+
+.head {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.inbox {
+    color: white;
+    background-color: rgb(115, 159, 210);
+    width: 35em;
+    border: 1px groove rgb(115, 159, 210);
+    border-radius: 12px;
+    box-sizing: 8px 8px 5px;
+    padding: 8px 12px;
+    grid-row:2fr;
+    grid-column: 1fr;
+}
+
+.rules {
+    margin-top: 0 1.5%;
+}
+
+.foot {
+    float:left;
+    background-color: black;
+    color: whitesmoke;
+    font-style: oblique;
+    border-radius: 50px;
+    box-sizing: 10px 10px 5px;
+    padding: 8px 12px;
+}
+
